@@ -329,11 +329,11 @@ class Redirects extends Component
         }
 
         // Resolve static redirects
-        $redirects = $this->getAllRegExRedirects(null, $siteId, true);
-        $redirect = $this->resolveRedirect($fullUrl, $pathOnly, $redirects, $siteId);
-        if ($redirect) {
-            return $redirect;
-        }
+        // $redirects = $this->getAllRegExRedirects(null, $siteId, true);
+        // $redirect = $this->resolveRedirect($fullUrl, $pathOnly, $redirects, $siteId);
+        // if ($redirect) {
+        //     return $redirect;
+        // }
 
         return null;
     }
